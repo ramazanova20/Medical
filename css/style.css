@@ -1,0 +1,48 @@
+:root{--blue: #6bc2f1}
+header {
+    background: url('../img/headerg.jpg') 55%/cover;
+   
+}
+.text-blue{color: var(--blue);}
+
+.bg-blue{background-color: var(--blue);}
+.bg-blackk{background-color: #072035;}
+#bg1{background: url('../img/professional.jpg') center/cover;}
+#bg2{background: url('../img/emergeny.jpg') center/cover;}
+
+.caruselBg {
+    height: 60vh;
+    background-color: #6bc2f1;
+}
+
+.soz {
+    display: inline-block;
+    color: red !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: initial !important;
+    height: initial !important;
+    width: initial !important;
+    opacity: initial !important;
+    background-color: transparent !important;
+    transition: 1s !important;
+
+}
+
+.carousel-indicators [data-bs-target] img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.carousel-indicators .active {
+    scale: 1.3;
+}
+
+textarea{
+	resize: none;
+}
